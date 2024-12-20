@@ -7,7 +7,7 @@ from google.cloud import aiplatform
 import google.generativeai as genai
 from sklearn.preprocessing import StandardScaler
 import joblib  # For loading your trained model
-#hola  
+#hola  update
 model_diabetes = joblib.load('diabetes_predictor.pkl') 
 
 genai.configure(api_key="AIzaSyCes7jo5QiuKmhVTwVHNedLItNdMMlPlCY")
